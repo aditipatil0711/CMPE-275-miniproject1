@@ -1,3 +1,4 @@
+import logging
 import socket
 import threading
 import sys
@@ -103,13 +104,14 @@ class SessionHandler(threading.Thread):
             self._cltconn = None
             self.good = False
 
-    def process(self,raw):
+    def process(self, raw):
         try:
             bldr = BasicBuilder()
-            name,group,text = bldr.decode(raw)
+            name, group, text = bldr.decode(raw)
+            logging.info("from %s, to group: %s, text: %s", name, group, text)
             print(f"from {name}, to group: {group}, text: {text}")
-        except Exception as e:
-            pass
+        except Exception as e:  
+            logging.error("Error processing message: %s", e)
 
     def run(self):
         while self.good:

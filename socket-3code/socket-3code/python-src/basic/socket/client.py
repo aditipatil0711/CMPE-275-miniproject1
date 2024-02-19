@@ -1,7 +1,7 @@
-import sys
-sys.path.append('C:/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/python-src')
-
 import socket
+import sys
+import time
+sys.path.append('/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/python-src')
 from basic.payload.builder import BasicBuilder
 
 class BasicClient(object):
@@ -10,6 +10,8 @@ class BasicClient(object):
         self.name = name
         self.ipaddr = ipaddr
         self.port = port
+        self.retry_attempts = 3  # Number of retry attempts
+        self.retry_delay = 5  # Delay between retries in seconds
 
         self.group = "public"
 
@@ -36,8 +38,23 @@ class BasicClient(object):
         self._clt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         # For UDP Connection
         #self._clt = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        self._clt.connect(addr)
+        #self._clt.connect(addr)
         #self._clt.setblocking(False)
+
+        for attempt in range(self.retry_attempts):
+            try:
+                self._clt.connect(addr)
+                print("Connected to the server successfully.")
+                break  # Exit the loop if connection is successful
+            except socket.error as e:
+                print(f"Connection failed on attempt {attempt + 1}: {e}")
+                if attempt < self.retry_attempts - 1:  # Check if more retries are left
+                    print(f"Retrying in {self.retry_delay} seconds...")
+                    time.sleep(self.retry_delay)
+                else:
+                    print("All connection attempts failed. Please check the server and try again later.")
+                    self.stop()  # Close the socket if all retries fail
+
 
     def join(self, group):
         self.group = group
