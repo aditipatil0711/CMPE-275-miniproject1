@@ -29,7 +29,7 @@ class BasicBuilder(object):
         parts.append(part)
         
         # Assign parts to name, group, and msg
-        if len(parts) >= 3:
+        if len(parts) >= 2:
             group, name, msg = parts[0], parts[1], ' '.join(parts[2:])
         else:
             raise ValueError("Invalid message format")

@@ -13,10 +13,21 @@ public class BasicBuilder {
 	}
 
 	public String encode(Message msg) {
-		var payload = msg.getGroup() + "," + msg.getName() + "," + msg.getText();
+
+		// Use a placeholder for empty fields
+		String name = msg.getName().isEmpty() ? "<empty>" : msg.getName().replace(",", "\\,");
+		String group = msg.getGroup().isEmpty() ? "<empty>" : msg.getGroup().replace(",", "\\,");
+		String text = msg.getText().isEmpty() ? "<empty>" : msg.getText().replace(",", "\\,");
+		
+		var payload = group + "," + name + "," + text;
+		var length = payload.getBytes().length; // Assuming UTF-8 encoding
+		return length + "," + payload;
+		
+		
+		/*var payload = msg.getGroup() + "," + msg.getName() + "," + msg.getText();
 	    var length = payload.getBytes().length; // Assuming UTF-8 encoding
 	    return length + "," + payload;
-		/*
+		
 		var sb = new StringBuilder();
 		sb.append(msg.getGroup()).append(",").append(msg.getName()).append(",").append(msg.getText());
 
