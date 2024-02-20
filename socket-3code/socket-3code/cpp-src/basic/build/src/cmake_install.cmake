@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src
+# Install script for directory: /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,7 +50,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
            FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/serverApp"
            RPATH "")
     endif()
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/release" TYPE EXECUTABLE FILES "/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/bin/serverApp")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/release" TYPE EXECUTABLE FILES "/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/bin/serverApp")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/serverApp" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/serverApp")
       if(CMAKE_INSTALL_DO_STRIP)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
            FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/clientApp"
            RPATH "")
     endif()
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/release" TYPE EXECUTABLE FILES "/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/bin/clientApp")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/release" TYPE EXECUTABLE FILES "/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/bin/clientApp")
     if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/clientApp" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/release/clientApp")
       if(CMAKE_INSTALL_DO_STRIP)

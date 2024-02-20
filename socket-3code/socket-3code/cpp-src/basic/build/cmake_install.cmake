@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic
+# Install script for directory: /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/src/cmake_install.cmake")
+  include("/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test/cmake_install.cmake")
+  include("/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,5 +1,5 @@
 src/CMakeFiles/basic_socket.dir/socket/server.cpp.o: \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/socket/server.cpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/socket/server.cpp \
   /usr/include/netinet/in.h /usr/include/features.h \
   /usr/include/features-time64.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -213,13 +213,13 @@ src/CMakeFiles/basic_socket.dir/socket/server.cpp.o: \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/socket/server.hpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/socket/server.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/vector \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/socket/sessionhandler.hpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/socket/sessionhandler.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/memory \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/align.h \

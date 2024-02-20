@@ -1,5 +1,5 @@
 src/CMakeFiles/basic_socket.dir/socket/client.cpp.o: \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/socket/client.cpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/socket/client.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/thread \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/compare \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/concepts \
@@ -248,11 +248,11 @@ src/CMakeFiles/basic_socket.dir/socket/client.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/istream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/sstream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/iostream \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/socket/client.hpp \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/payload/basicbuilder.hpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/socket/client.hpp \
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/payload/basicbuilder.hpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/vector \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_uninitialized.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_vector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/stl_bvector.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/vector.tcc \
-  /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/src/payload/message.hpp
+  /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/src/payload/message.hpp

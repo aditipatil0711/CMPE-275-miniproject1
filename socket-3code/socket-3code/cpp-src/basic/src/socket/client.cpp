@@ -65,6 +65,47 @@ void basic::BasicClient::sendMessage(std::string m) {
 }
 
 void basic::BasicClient::connect() {
+    const int max_retries = 5; // Maximum number of reconnection attempts
+    const int retry_interval = 2; // Delay between attempts in seconds
+    for (int attempt = 0; attempt < max_retries; ++attempt) {
+        if (this->good) return; // Already connected
+
+        std::cerr << "Attempting to connect... (Attempt " << (attempt + 1) << ")" << std::endl;
+
+        this->clt = ::socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+        if (this->clt < 0) {
+            std::cerr << "Failed to create socket, error = " << errno << std::endl;
+            continue; // Attempt to reconnect
+        }
+
+        struct sockaddr_in serv_addr;
+        serv_addr.sin_family = AF_INET;
+        serv_addr.sin_addr.s_addr = inet_addr(this->ipaddr.c_str());
+        serv_addr.sin_port = htons(this->portN);
+
+        if (inet_pton(AF_INET, this->ipaddr.c_str(), &serv_addr.sin_addr) < 0) {
+            std::cerr << "Invalid IP address format." << std::endl;
+            ::close(this->clt);
+            continue; // Attempt to reconnect
+        }
+
+        if (::connect(this->clt, (struct sockaddr*)&serv_addr, sizeof(serv_addr)) < 0) {
+            std::cerr << "Failed to connect to server, error = " << errno << std::endl;
+            ::close(this->clt);
+            std::this_thread::sleep_for(std::chrono::seconds(retry_interval)); // Wait before retrying
+            continue;
+        }
+
+        this->good = true;
+        std::cerr << "Connected successfully." << std::endl;
+        return; // Connection successful
+    }
+
+    throw std::runtime_error("All connection attempts failed.");
+}
+
+/*
+void basic::BasicClient::connect() {
    if (this->good) return;
 
    std::cerr << "connecting..." << std::endl;
@@ -94,4 +135,4 @@ void basic::BasicClient::connect() {
    }
 
    this->good = true;
-}
+}*/

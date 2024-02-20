@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic
+CMAKE_SOURCE_DIR = /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build
+CMAKE_BINARY_DIR = /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/CMakeFiles /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/src//CMakeFiles/progress.marks
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/CMakeFiles 0
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/CMakeFiles /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/src//CMakeFiles/progress.marks
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/basic_socket.dir/rule:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/basic_socket.dir/rule
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/basic_socket.dir/rule
 .PHONY : src/CMakeFiles/basic_socket.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ basic_socket: src/CMakeFiles/basic_socket.dir/rule
 
 # fast build rule for target.
 basic_socket/fast:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/build
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/build
 .PHONY : basic_socket/fast
 
 # Convenience name for target.
 src/CMakeFiles/serverApp.dir/rule:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/serverApp.dir/rule
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/serverApp.dir/rule
 .PHONY : src/CMakeFiles/serverApp.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ serverApp: src/CMakeFiles/serverApp.dir/rule
 
 # fast build rule for target.
 serverApp/fast:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/build
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/build
 .PHONY : serverApp/fast
 
 # Convenience name for target.
 src/CMakeFiles/clientApp.dir/rule:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/clientApp.dir/rule
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/clientApp.dir/rule
 .PHONY : src/CMakeFiles/clientApp.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ clientApp: src/CMakeFiles/clientApp.dir/rule
 
 # fast build rule for target.
 clientApp/fast:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/build
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/build
 .PHONY : clientApp/fast
 
 apps/ServerApp.o: apps/ServerApp.cpp.o
@@ -208,7 +208,7 @@ apps/ServerApp.o: apps/ServerApp.cpp.o
 
 # target to build an object file
 apps/ServerApp.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.o
 .PHONY : apps/ServerApp.cpp.o
 
 apps/ServerApp.i: apps/ServerApp.cpp.i
@@ -216,7 +216,7 @@ apps/ServerApp.i: apps/ServerApp.cpp.i
 
 # target to preprocess a source file
 apps/ServerApp.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.i
 .PHONY : apps/ServerApp.cpp.i
 
 apps/ServerApp.s: apps/ServerApp.cpp.s
@@ -224,7 +224,7 @@ apps/ServerApp.s: apps/ServerApp.cpp.s
 
 # target to generate assembly for a file
 apps/ServerApp.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/serverApp.dir/build.make src/CMakeFiles/serverApp.dir/apps/ServerApp.cpp.s
 .PHONY : apps/ServerApp.cpp.s
 
 apps/clientApp.o: apps/clientApp.cpp.o
@@ -232,7 +232,7 @@ apps/clientApp.o: apps/clientApp.cpp.o
 
 # target to build an object file
 apps/clientApp.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.o
 .PHONY : apps/clientApp.cpp.o
 
 apps/clientApp.i: apps/clientApp.cpp.i
@@ -240,7 +240,7 @@ apps/clientApp.i: apps/clientApp.cpp.i
 
 # target to preprocess a source file
 apps/clientApp.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.i
 .PHONY : apps/clientApp.cpp.i
 
 apps/clientApp.s: apps/clientApp.cpp.s
@@ -248,7 +248,7 @@ apps/clientApp.s: apps/clientApp.cpp.s
 
 # target to generate assembly for a file
 apps/clientApp.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/clientApp.dir/build.make src/CMakeFiles/clientApp.dir/apps/clientApp.cpp.s
 .PHONY : apps/clientApp.cpp.s
 
 payload/basicbuilder.o: payload/basicbuilder.cpp.o
@@ -256,7 +256,7 @@ payload/basicbuilder.o: payload/basicbuilder.cpp.o
 
 # target to build an object file
 payload/basicbuilder.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.o
 .PHONY : payload/basicbuilder.cpp.o
 
 payload/basicbuilder.i: payload/basicbuilder.cpp.i
@@ -264,7 +264,7 @@ payload/basicbuilder.i: payload/basicbuilder.cpp.i
 
 # target to preprocess a source file
 payload/basicbuilder.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.i
 .PHONY : payload/basicbuilder.cpp.i
 
 payload/basicbuilder.s: payload/basicbuilder.cpp.s
@@ -272,7 +272,7 @@ payload/basicbuilder.s: payload/basicbuilder.cpp.s
 
 # target to generate assembly for a file
 payload/basicbuilder.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/payload/basicbuilder.cpp.s
 .PHONY : payload/basicbuilder.cpp.s
 
 socket/client.o: socket/client.cpp.o
@@ -280,7 +280,7 @@ socket/client.o: socket/client.cpp.o
 
 # target to build an object file
 socket/client.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.o
 .PHONY : socket/client.cpp.o
 
 socket/client.i: socket/client.cpp.i
@@ -288,7 +288,7 @@ socket/client.i: socket/client.cpp.i
 
 # target to preprocess a source file
 socket/client.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.i
 .PHONY : socket/client.cpp.i
 
 socket/client.s: socket/client.cpp.s
@@ -296,7 +296,7 @@ socket/client.s: socket/client.cpp.s
 
 # target to generate assembly for a file
 socket/client.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/client.cpp.s
 .PHONY : socket/client.cpp.s
 
 socket/server.o: socket/server.cpp.o
@@ -304,7 +304,7 @@ socket/server.o: socket/server.cpp.o
 
 # target to build an object file
 socket/server.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.o
 .PHONY : socket/server.cpp.o
 
 socket/server.i: socket/server.cpp.i
@@ -312,7 +312,7 @@ socket/server.i: socket/server.cpp.i
 
 # target to preprocess a source file
 socket/server.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.i
 .PHONY : socket/server.cpp.i
 
 socket/server.s: socket/server.cpp.s
@@ -320,7 +320,7 @@ socket/server.s: socket/server.cpp.s
 
 # target to generate assembly for a file
 socket/server.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/server.cpp.s
 .PHONY : socket/server.cpp.s
 
 socket/sessionhandler.o: socket/sessionhandler.cpp.o
@@ -328,7 +328,7 @@ socket/sessionhandler.o: socket/sessionhandler.cpp.o
 
 # target to build an object file
 socket/sessionhandler.cpp.o:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.o
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.o
 .PHONY : socket/sessionhandler.cpp.o
 
 socket/sessionhandler.i: socket/sessionhandler.cpp.i
@@ -336,7 +336,7 @@ socket/sessionhandler.i: socket/sessionhandler.cpp.i
 
 # target to preprocess a source file
 socket/sessionhandler.cpp.i:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.i
 .PHONY : socket/sessionhandler.cpp.i
 
 socket/sessionhandler.s: socket/sessionhandler.cpp.s
@@ -344,7 +344,7 @@ socket/sessionhandler.s: socket/sessionhandler.cpp.s
 
 # target to generate assembly for a file
 socket/sessionhandler.cpp.s:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/basic_socket.dir/build.make src/CMakeFiles/basic_socket.dir/socket/sessionhandler.cpp.s
 .PHONY : socket/sessionhandler.cpp.s
 
 # Help Target
@@ -391,6 +391,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

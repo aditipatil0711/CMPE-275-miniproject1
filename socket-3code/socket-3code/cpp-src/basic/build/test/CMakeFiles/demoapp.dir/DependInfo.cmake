@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/test/demoapp.cpp" "test/CMakeFiles/demoapp.dir/demoapp.cpp.o" "gcc" "test/CMakeFiles/demoapp.dir/demoapp.cpp.o.d"
+  "/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/test/demoapp.cpp" "test/CMakeFiles/demoapp.dir/demoapp.cpp.o" "gcc" "test/CMakeFiles/demoapp.dir/demoapp.cpp.o.d"
   )
 
 # Targets to which this target links.

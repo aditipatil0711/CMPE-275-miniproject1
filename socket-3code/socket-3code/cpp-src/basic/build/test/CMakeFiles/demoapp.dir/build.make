@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic
+CMAKE_SOURCE_DIR = /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build
+CMAKE_BINARY_DIR = /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/demoapp.dir/depend.make
@@ -72,16 +72,16 @@ include test/CMakeFiles/demoapp.dir/flags.make
 test/CMakeFiles/demoapp.dir/demoapp.cpp.o: test/CMakeFiles/demoapp.dir/flags.make
 test/CMakeFiles/demoapp.dir/demoapp.cpp.o: ../test/demoapp.cpp
 test/CMakeFiles/demoapp.dir/demoapp.cpp.o: test/CMakeFiles/demoapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/demoapp.dir/demoapp.cpp.o"
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/demoapp.dir/demoapp.cpp.o -MF CMakeFiles/demoapp.dir/demoapp.cpp.o.d -o CMakeFiles/demoapp.dir/demoapp.cpp.o -c /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/test/demoapp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/demoapp.dir/demoapp.cpp.o"
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/demoapp.dir/demoapp.cpp.o -MF CMakeFiles/demoapp.dir/demoapp.cpp.o.d -o CMakeFiles/demoapp.dir/demoapp.cpp.o -c /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/test/demoapp.cpp
 
 test/CMakeFiles/demoapp.dir/demoapp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demoapp.dir/demoapp.cpp.i"
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/test/demoapp.cpp > CMakeFiles/demoapp.dir/demoapp.cpp.i
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/test/demoapp.cpp > CMakeFiles/demoapp.dir/demoapp.cpp.i
 
 test/CMakeFiles/demoapp.dir/demoapp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demoapp.dir/demoapp.cpp.s"
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/test/demoapp.cpp -o CMakeFiles/demoapp.dir/demoapp.cpp.s
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/test/demoapp.cpp -o CMakeFiles/demoapp.dir/demoapp.cpp.s
 
 # Object files for target demoapp
 demoapp_OBJECTS = \
@@ -93,18 +93,18 @@ demoapp_EXTERNAL_OBJECTS =
 bin/demoapp: test/CMakeFiles/demoapp.dir/demoapp.cpp.o
 bin/demoapp: test/CMakeFiles/demoapp.dir/build.make
 bin/demoapp: test/CMakeFiles/demoapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/demoapp"
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demoapp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/demoapp"
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demoapp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/demoapp.dir/build: bin/demoapp
 .PHONY : test/CMakeFiles/demoapp.dir/build
 
 test/CMakeFiles/demoapp.dir/clean:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test && $(CMAKE_COMMAND) -P CMakeFiles/demoapp.dir/cmake_clean.cmake
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test && $(CMAKE_COMMAND) -P CMakeFiles/demoapp.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/demoapp.dir/clean
 
 test/CMakeFiles/demoapp.dir/depend:
-	cd /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/test /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test /mnt/c/Users/patil/Downloads/cpp-sockets/mini-1/socket-3code/cpp-src/basic/build/test/CMakeFiles/demoapp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/test /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test /mnt/c/Users/patil/Downloads/projects_export/mini-1/socket-3code/socket-3code/cpp-src/basic/build/test/CMakeFiles/demoapp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/demoapp.dir/depend
 
